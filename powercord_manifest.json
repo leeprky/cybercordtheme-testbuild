@@ -1,7 +1,7 @@
 {
     "name": "cybercord-testbuild",
     "description": "a cyberpunk based theme.",
-    "version": "1.3.6",
+    "version": "1.3.2",
     "author": "Leeprky#2063",
     "theme": "theme.css",
     "license": "MIT"
