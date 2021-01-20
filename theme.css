@@ -6,10 +6,21 @@
 
 /* BLURPLE YELLOW */
 
+/* AREA YOU WANT TO EDIT */ 
+/* AREA YOU WANT TO EDIT */ 
+/* AREA YOU WANT TO EDIT */ 
+/* AREA YOU WANT TO EDIT */ 
+
 :root {
     --alt-color: 214, 214, 0; /* Must be an rgb color for opacity to work */
     --radio-group-dot-foreground: rgba(var(--alt-color));
 }
+
+/* AREA YOU WANT TO EDIT */ 
+/* AREA YOU WANT TO EDIT */ 
+/* AREA YOU WANT TO EDIT */ 
+/* AREA YOU WANT TO EDIT */ 
+
 
 .theme-light {
     --logo-primary: rgba(var(--alt-color));
@@ -376,7 +387,7 @@ span[class*="botTagRegular"] {
 .powercord-spotify .spotify-seek-bar-progress{background:#D6D600!important;border-radius:42px!important}
 .powercord-spotify .container-3baos1{background-color:transparent!important}
 .powercord-spotify .container-3baos1 .nameTag-3uD-yy .title-eS5yk3{color:#fff!important}
-.powercord-spotify .container-3baos1 .nameTag-3uD-yy .subtext-3CDbHg{color:#0C0E13!important;overflow-x:hidden!important;text-indent:-15px!important}
+.powercord-spotify .container-3baos1 .nameTag-3uD-yy .subtext-3CDbHg{color:#aaaaaa!important;overflow-x:hidden!important;text-indent:-15px!important}
 .powercord-spotify .spotify-buttons button{background:0 0!important;}
 .powercord-spotify .spotify-seek-elements,.powercord-spotify.hover .spotify-seek-elements{color:#D6D600!important;font-size:70%!important;margin-top:3px!important;margin-left:10px!important;margin-right:10px!important}
 .powercord-spotify .horizontal-1ae9ci *{width:0!important;overflow:hidden!important;opacity:0!important;display:none!important}
@@ -406,6 +417,11 @@ span[class*="botTagRegular"] {
  
 /* madeleine#0173's Code */  /* https://github.com/spinfish/midnightcord/ */
 /* CYBERCORD YELLOW */
+
+/* AREA YOU WANT TO EDIT */ 
+/* AREA YOU WANT TO EDIT */ 
+/* AREA YOU WANT TO EDIT */ 
+/* AREA YOU WANT TO EDIT */ 
 
 :root {
   /* self explanatory (hopefully) */
@@ -485,6 +501,10 @@ span[class*="botTagRegular"] {
        when accessed via member list */
   --header-secondary: #c9c9c9 !important;
 
+/* AREA YOU WANT TO EDIT */ 
+/* AREA YOU WANT TO EDIT */ 
+/* AREA YOU WANT TO EDIT */ 
+/* AREA YOU WANT TO EDIT */ 
 
   /* i dont know what any of the following does but i suppose
   its important yo */
@@ -851,7 +871,12 @@ amazing LuckFire#4800! */
     background-color: var(--background-secondary-alt) !important;
   }
 
-/* color current channel bright pink, and add arrow in front of it */
+  /* AREA YOU WANT TO EDIT */ 
+  /* AREA YOU WANT TO EDIT */ 
+  /* AREA YOU WANT TO EDIT */ 
+  /* AREA YOU WANT TO EDIT */ 
+
+/* color current channel cyan, and add arrow in front of it */
 [class*='modeSelected'] [class*='name']
 {
     color: rgba(1, 207, 207, .9) !important;
@@ -863,10 +888,10 @@ amazing LuckFire#4800! */
     content: "-> ";
 }
 
-/* color unread channels bright green, and add arrows after them */
+/* color unread channels lighter yellow, and add arrows after them */
 [class*='modeUnread'] [class*='name']
 {
-    color: #C2C203 !important;
+    color: #ffff49 !important;
     padding-left: 3px
 }
 
@@ -874,6 +899,11 @@ amazing LuckFire#4800! */
 {
     content: " <-";
 }
+
+/* AREA YOU WANT TO EDIT */ 
+/* AREA YOU WANT TO EDIT */ 
+/* AREA YOU WANT TO EDIT */ 
+/* AREA YOU WANT TO EDIT */ 
 
 .powercord-spotify .avatarWrapper-2yR4wp {
   
@@ -3616,21 +3646,15 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
   animation: rotate 3s infinite;
 }
 
-/* Leeprky#2063's Code */
+@keyframes rainbow-name {
+  from {color: #6666ff}
+  25%  {color: #0099ff}
+  50%  {color: #00ff00}
+  75%  {color: #ff3399}
+  100% {color: #6666ff}
+}
 .message-2qnXI6[data-author-id="224524143482241035"] .username-1A8OIy {
-  background: linear-gradient( 
-    60deg, 
-    hsl(224, 85%, 66%), 
-    hsl(269, 85%, 66%), 
-    hsl(314, 85%, 66%), 
-    hsl(359, 85%, 66%), 
-    hsl(44, 85%, 66%), 
-    hsl(89, 85%, 66%), 
-    hsl(134, 85%, 66%), 
-    hsl(179, 85%, 66%) 
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    animation: rainbow-name 10s linear infinite;
 }
 
 /* AJERN */
